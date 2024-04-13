@@ -7,7 +7,7 @@ window.minsize(width=200, height=200)
 window.title("BMI Calculator")
 
 #label
-my_label = Label(text="Enter your weight")
+my_label = Label(text="Enter your weight (kg)")
 my_label.pack()
 
 #entry
@@ -15,7 +15,7 @@ my_entry = Entry(width=10)
 my_entry.pack()
 
 #Label2
-my_label2 = Label(text="Enter your height")
+my_label2 = Label(text="Enter your height (cm)")
 my_label2.pack()
 
 #Entry2
